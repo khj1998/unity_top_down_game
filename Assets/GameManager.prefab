@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8718738436310883242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8718738436310883236}
+  - component: {fileID: 8718738436310883237}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8718738436310883236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8718738436310883242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 197.42308, y: 130.0187, z: -90.378075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8718738436310883237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8718738436310883242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91a8c9930d9b0654ea7404c4505b54fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  talkmanager: {fileID: 0}
+  PortrayImg: {fileID: 0}
+  talkText: {fileID: 2387384664605514520, guid: 162e5abeba74d724c9704bc009d0c7dd, type: 3}
+  quest_text: {fileID: 0}
+  obj: {fileID: 0}
+  menu: {fileID: 0}
+  player: {fileID: 8281212515802721598, guid: 975a9572e8afc49449c059c82b2e72d1, type: 3}
+  isAction: 0
+  talkindex: 0
+  questmanager: {fileID: 2929578078390292999, guid: f75ef084cea9f87468b7368ee0db4780, type: 3}
+  Portray_anim: {fileID: 0}
+  talkPanel: {fileID: 0}
